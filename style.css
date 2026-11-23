@@ -1,0 +1,10 @@
+/* Hallmark lite · shape: Long Document · theme: custom (gallery wall at night, matches the app) · genre: editorial · job: read policy / get help · signature: the app's own amber-on-dark material */
+:root{--paper:#110e0c;--surface:#1c1815;--ink:#e9e4da;--ink2:#c7c2b9;--muted:#a39b91;--rule:rgba(233,228,218,.12);--amber:#e3913a;--serif:"Iowan Old Style","Palatino Linotype",Georgia,serif;--sans:-apple-system,"Segoe UI",system-ui,sans-serif;--s1:8px;--s2:16px;--s3:24px;--s4:48px;--s5:96px}
+html,body{overflow-x:clip;margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 var(--sans)}
+main{max-width:68ch;margin:0 auto;padding:var(--s4) var(--s3) var(--s5)}
+h1{font:400 clamp(40px,7vw,56px)/1.05 var(--serif);margin:0 0 var(--s2);overflow-wrap:break-word;min-width:0}
+h2{font:400 28px/1.2 var(--serif);margin:var(--s4) 0 var(--s1)}
+p,li{color:var(--ink2)} .muted{color:var(--muted);font-size:15px}
+a{color:var(--amber)} a:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+nav{display:flex;gap:var(--s3);margin-bottom:var(--s4);font-size:15px}
+footer{border-top:1px solid var(--rule);margin-top:var(--s5);padding-top:var(--s3);font-size:14px;color:var(--muted)}
