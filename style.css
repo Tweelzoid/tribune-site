@@ -8,3 +8,8 @@ p,li{color:var(--ink2)} .muted{color:var(--muted);font-size:15px}
 a{color:var(--amber)} a:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
 nav{display:flex;gap:var(--s3);margin-bottom:var(--s4);font-size:15px}
 footer{border-top:1px solid var(--rule);margin-top:var(--s5);padding-top:var(--s3);font-size:14px;color:var(--muted)}
+table{width:100%;border-collapse:collapse;margin:var(--s3) 0;font-size:15px}
+th,td{text-align:left;padding:12px 10px 12px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+th{color:var(--muted);font-weight:500}
+td:first-child{color:var(--ink);font-weight:600}
+@media (max-width:560px){table{font-size:14px}}
