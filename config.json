@@ -2,5 +2,6 @@
   "autoPushOff": false,
   "householdOff": false,
   "museumOff": false,
-  "message": ""
+  "message": "",
+  "logURL": "https://script.google.com/macros/s/AKfycbztIsMHmhTkgWkYkXlEP_4xMjkivX0I29A1SFmHkGg_z6dOczLoOhHZwYILPJVlmKFZ/exec"
 }
